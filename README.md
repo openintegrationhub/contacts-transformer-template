@@ -18,10 +18,10 @@ This is a template for creating an OIH transformer. We recommend using it as the
 │       └── personToOih.js
 ├── logo.png
 ├── package.json
-└── spec
+└── test
     ├── seed
     │   └── person.js
-    └── transform.spec.js
+    └── transform.test.js
 ```
 
 All Node.js transformers get build by NPM `run-script` which checks the configuration in `package.json` first, then starts initialising the `node` and `npm` versions and builds them. As a next step, the dependencies get downloaded and build. All Node.js transformers must use the following dependencies:
