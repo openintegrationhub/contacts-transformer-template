@@ -1,6 +1,9 @@
 # contacts-transformer-template
 > Contacts Node.js transformer template for OIH platform
 
+[![CircleCI](https://circleci.com/gh/openintegrationhub/contacts-transformer-template.svg?style=svg)](https://circleci.com/gh/openintegrationhub/contacts-transformer-template)
+[![License](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](LICENSE)
+
 This is a template for creating an OIH transformer. We recommend using it as the first step of development. The adapter comes with a very a basic architecture which can be used on OIH. Just clone it and get started!
 
 ## Transformer Architecture
